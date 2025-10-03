@@ -12,10 +12,12 @@ global_t globals[] = {
     //min = max  = read only
     //command regs, personal commandas for all
     //save and read in ee      
-    {(char*)"w1", 50.0, 0.01, 100000.0, true},  // mode of the blinkimg led
-    {(char*)"w2", 300.0, 0.01, 100000.0,true},
+    {(char*)"w1", 1.0, 0.01, 100000.0, true},  // mode of the blinkimg led
+    {(char*)"w2", 2.0, 0.01, 100000.0,true},
     {(char*)"a1", 1.0, 0.01, 100000.0, true},
-    {(char*)"a2", 1.0, 0.01, 100000.0, true}
+    {(char*)"a2", 1.0, 0.01, 100000.0, true},
+    {(char*)"f1", 1.0, 1.0, 100000.0, true},
+    {(char*)"f2", 1.0, 1.0, 100000.0, true}
 };
 int MAX_GLOBALS = sizeof(globals)/sizeof(global_t);
 
